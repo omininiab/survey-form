@@ -1,4 +1,24 @@
 #main {
     margin: auto;
-    width: 50%;
+    width: 100%;
+    max-width: 750px;
+    background-image: linear-gradient( 115deg, rgba(0, 24, 26, 0.8), rgba(136, 136, 206, 0.7) ), url("../img/code-bgd.jpg");
+    background-size: cover;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+#submit-button {
+    width: 100%;
+}
+
+#survey-form {
+    background-color: #2121238a;
+    padding: 7%;
+    border-radius: 1%;
+    line-height: 2;
+}
+
+h1, p {
+    text-align: center;
 }
